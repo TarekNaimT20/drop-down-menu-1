@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.headweb{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logom > img {
+    width: 50px;
+    margin-left: 20px;
+    
+}
+
+.headweb > ul{
+    display: flex;
+    margin-right: 25px;
+}
+
+.headweb ul li{
+    list-style: none;
+    margin: 0px 0px;
+    padding: 15px 0px;
+    
+}
+.headweb > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+
+}
+.headweb > ul > li > a{
+    border-right: 1px solid white;
+    padding: 23px 15px;
+    transition: 0.5s;
+}
+.headweb > ul > li:hover > a{
+    background-color: rgb(68, 60, 43);
+
+}
+
+/* .headweb > ul > li:first-child > a{
+    border-left: 1px solid white;
+} */
+
+.dropdown{
+    opacity: 0;
+    background-color: rgb(65, 122, 8);
+    text-align: center;
+    margin-top: 23px;
+    position: absolute;
+    width: 156px;
+    transition: 1s;
+  
+    
+}
+
+.dropdown > li > a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    
+}
+.dropdown > li:first-child{
+    border-top: 0.2px solid white;
+}
+.dropdown > li{
+    list-style:none ;
+    padding: 10px 0px;
+    border-bottom: 0.2px solid rgb(255, 255, 255);
+    
+}
+.dropdown > li:hover{
+    background-color: blueviolet;
+}
+
+
+.headweb > ul >li:hover > ul {
+    opacity: 1;
+}
+
+
+
+
+
+
